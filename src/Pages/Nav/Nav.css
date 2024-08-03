@@ -31,3 +31,23 @@ nav a.active {
     background: "#ff6600";
     color: "white";
 }
+
+nav button {
+    background: transparent;
+    padding: 0.3rem;
+    border-radius: 50%;
+    display: flex;
+    color:#f0af4f;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.button {
+    background: "#ff6600";
+    color: "white";
+}

@@ -49,8 +49,7 @@ function Nav() {
       <a href="#services" onClick={() => handleClick('#services')} className={active === '#services' ? 'active' : ''}><RiServiceLine /></a>
       <a href="#gallery" onClick={() => handleClick('#gallery')} className={active === '#gallery' ? 'active' : ''}><GrGallery /></a>
       <a href="#contact" onClick={() => handleClick('#contact')} className={active === '#contact' ? 'active' : ''}><MdContactPhone /></a>
-      <a  onClick={handleCall} ><MdCall /></a>
-   
+      <button onClick={handleCall}><MdCall/></button>
     </nav>
   );
 }
