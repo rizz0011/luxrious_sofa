@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .about-us {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-header {
+    text-align: center;
+    background-color:#f0af4f;
+    color: #fff;
+    padding:  0;
+  }
+  
+  .about-us-content {
+    padding: 20px;
+  }
+  
+  .about-us-content h2,
+  .about-us-content h3 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .about-us-content p {
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .about-us-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-us-content ul li {
+    background: #ffefdb;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #f0af4f;
+  }
+  
+  .about-us-footer {
+    text-align: center;
+    background-color: #f0af4f;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .about-us {
+      padding: 5px;
+    }
+  
+    .about-us-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-us-content h3 {
+      font-size: 1.25rem;
+    }
+  
+    .about-us-content p {
+      font-size: 0.9rem;
+    }
+  
+    .about-us-content ul li {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-us-header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .about-us-content h2 {
+      font-size: 1.25rem;
+    }
+  
+    .about-us-content h3 {
+      font-size: 1rem;
+    }
+  
+    .about-us-content p {
+      font-size: 0.8rem;
+    }
+  
+    .about-us-content ul li {
+      font-size: 0.8rem;
+      padding: 6px;
+    }
+  
+    .about-us-footer p {
+      font-size: 0.8rem;
+    }
+  }
+  
