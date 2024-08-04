@@ -45,7 +45,7 @@ const About = () => {
         <h3>Meet Our Team</h3>
         <p>
           Our team is comprised of passionate professionals who are dedicated to their craft. From our talented upholsterers to our friendly 
-          customer service representatives, every member of Wich Wood Furniture is committed to delivering exceptional service and quality results.
+          customer service representatives, every member of Luxurious Furniture is committed to delivering exceptional service and quality results.
         </p>
 
         <h3>Contact Us</h3>
